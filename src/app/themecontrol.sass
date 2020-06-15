@@ -1,0 +1,23 @@
+@import '../../node_modules/@angular/material/_theming.scss'
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons')
+@import url('https://fonts.googleapis.com/css?family=Nunito')
+
+// always include only once per project
+@include mat-core()
+
+// import our Innotec themes
+@import '../../node_modules/@innotec/materials/original/themes.sass'
+// @import '../../node_modules/@innotec/auth-plugin/original/innotec-auth-plugin.sass'
+
+// import page components
+// @import './base.sass'
+// @import './pages/pages-controls.sass'
+// @import './components/components-controls.sass'
+
+// @each $class in $all-Theme-Variables
+//   $newclass: map-get($all-Theme-Classes, $class)
+//   .#{$newclass}
+//       @include base($class)
+//       @include pages-controls($class)
+//       @include components-controls($class)
+//       @include innotec-auth-plugin-components($class)

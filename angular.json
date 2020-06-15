@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "sass"
+          "styleext": "sass"
         }
       },
       "root": "",
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "htmlcss-angular"
+    }
+  },
+  "defaultProject": "htmlcss-angular",
+  "cli": {
+    "analytics": "4e0c10fe-49ea-41e7-8d83-02cc77567773"
+  }
 }
